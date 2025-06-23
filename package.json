@@ -1,0 +1,13 @@
+{
+  "name": "spree-playwright-tests",
+  "version": "1.0.0",
+  "description": "End-to-end UI tests for Spree Commerce using Playwright",
+  "scripts": {
+    "test": "npx playwright test",
+    "show-report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "typescript": "^5.4.5"
+  }
+}
